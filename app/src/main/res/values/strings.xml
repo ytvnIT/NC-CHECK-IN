@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NC CHECK-IN</string>
+    <string name="name">Nguyễn Trí Tâm</string>
+    <string name="ID">17521006</string>
+    <string name="checkin">Check-in</string>
+    <string name="info">Informations</string>
+    <string name="grades">Grades</string>
+    <string name="tkb">Timetable</string>
+    <string name="deadline">Deadline</string>
+    <string name="feedback">Feedback</string>
+
+    //CHECK IN
+    <string name="checkIn_success">Điểm danh thành công.</string>
+    <string name="checkIned">Điểm danh không thành công.\nBạn đã điểm danh.</string>
+    <string name="timeout">Điểm danh không thành công.\nĐã hết thời gian điểm danh.</string>
+    <string name="dif">Điểm danh không thành công.\nThiết bị đã điểm danh cho tài khoản khác.</string>
+    <string name="wrong">Điểm danh không thành công.\nBạn không thuộc lớp này.</string>
+    <string name="checkIn_fail">Điểm Danh thất bại.</string>
+    <string name="error">LỖI</string>
+    <string name="title_alert_checkIn">NC CHECK-IN</string>
+    <string name="gps_error">Không thể điểm danh\nMở GPS và cho phép UIT truy cập rồi thử lại</string>
+    <string name="location_checkIn_error">Điểm danh không thành công.\nVào lớp học để điểm danh</string>
+    //END CHECK IN
+
+    <string name="domain">http://10.80.247.191:8000</string>
+</resources>

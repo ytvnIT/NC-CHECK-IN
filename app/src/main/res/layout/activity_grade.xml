@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu.Grade.Activity_Grade"
+    android:orientation="vertical"
+    android:background="@drawable/bg_details">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="GRADE"/>
+    <LinearLayout
+        android:padding="10dp"
+        android:id="@+id/table"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="match_parent">
+        <WebView
+            android:id="@+id/wvGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </WebView>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn_home"
+        android:background="@drawable/icon_home"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+
+<!--<TableLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:background="@color/field">-->
+<!--<TableRow>-->
+<!--    <TextView-->
+<!--        android:layout_width="300px"-->
+<!--        android:text="MAMH"-->
+<!--        android:layout_weight="1"-->
+<!--        android:gravity="center"-->
+<!--        android:background="@drawable/border_table"-->
+<!--        android:layout_height="match_parent"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="300px"-->
+<!--        android:text="TINCHI"-->
+<!--        android:layout_weight="1"-->
+<!--        android:gravity="center"-->
+<!--        android:background="@drawable/border_table"-->
+<!--        android:layout_height="match_parent"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="250px"-->
+<!--        android:text="QT"-->
+<!--        android:layout_weight="1"-->
+<!--        android:gravity="center"-->
+<!--        android:background="@drawable/border_table"-->
+<!--        android:layout_height="match_parent"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="250px"-->
+<!--        android:text="TH"-->
+<!--        android:layout_weight="1"-->
+<!--        android:gravity="center"-->
+<!--        android:background="@drawable/border_table"-->
+<!--        android:layout_height="match_parent"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="250px"-->
+<!--        android:text="GK"-->
+<!--        android:layout_weight="1"-->
+<!--        android:gravity="center"-->
+<!--        android:background="@drawable/border_table"-->
+<!--        android:layout_height="match_parent"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="250px"-->
+<!--        android:text="CK"-->
+<!--        android:layout_weight="1"-->
+<!--        android:gravity="center"-->
+<!--        android:background="@drawable/border_table"-->
+<!--        android:layout_height="match_parent"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="250px"-->
+<!--        android:text="TB"-->
+<!--        android:layout_weight="1"-->
+<!--        android:gravity="center"-->
+<!--        android:background="@drawable/border_table"-->
+<!--        android:layout_height="match_parent"/>-->
+<!--</TableRow>-->
+<!--</TableLayout>-->

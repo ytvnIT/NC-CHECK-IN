@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_weight="10"
+    android:orientation="vertical"
+    android:background="@drawable/bg_details"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.3">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="CHECK-IN"/>
+
+            <Button
+                android:id="@+id/btnCheckIn"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check-in"
+                android:layout_marginTop="75dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_selector"
+                />
+
+            <TextView
+                android:id="@+id/tvError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnCheckIn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:textColor="#d32f2f"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.85">
+        <ListView
+                android:id="@+id/lvList"
+                android:divider="@drawable/border_checkin"
+                android:dividerHeight="1px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tvError"
+                android:layout_margin="8dp"
+                android:layout_centerHorizontal="true">
+
+        </ListView>
+    </LinearLayout>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn_home"
+        android:background="@drawable/icon_home"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@drawable/bg_details">-->
+<!--   -->
+<!--    <Button-->
+<!--        android:id="@+id/btnCheckIn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Check-in"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/button"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvError"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/btnCheckIn"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:textColor="@android:color/holo_red_light"-->
+<!--     />-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/lvList"-->
+<!--        android:layout_width="409dp"-->
+<!--        android:layout_height="576dp"-->
+<!--        android:layout_below="@+id/tvError"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        />-->
+
+<!--</RelativeLayout>-->
+
+
+
+
+<!--<RelativeLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent">-->
+<!--<Button-->
+<!--    android:id="@+id/btnCheckIn"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="Check-in"-->
+<!--    android:layout_marginTop="80dp"-->
+<!--    android:layout_centerHorizontal="true"-->
+<!--    android:background="@drawable/button"-->
+<!--    />-->
+
+<!--<TextView-->
+<!--    android:id="@+id/tvError"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_below="@+id/btnCheckIn"-->
+<!--    android:layout_margin="5dp"-->
+<!--    android:text="fsdfdsfs"-->
+<!--    android:layout_centerHorizontal="true"-->
+<!--    android:textColor="@android:color/holo_red_light"-->
+<!--    />-->
+<!--</RelativeLayout>-->
