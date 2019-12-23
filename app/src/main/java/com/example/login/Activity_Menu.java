@@ -41,18 +41,22 @@ public class Activity_Menu<card_checkin> extends AppCompatActivity  implements V
         switch (v.getId()){
             case R.id.cardview_checkin:
                 Intent intent_cardview_checkin = new Intent(Activity_Menu.this, CheckIn.class);
+                intent_cardview_checkin.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_HISTORY);
                 startActivity(intent_cardview_checkin);
                 break;
             case R.id.cardview_grades:
                 Intent intent_cardview_grades = new Intent(Activity_Menu.this, Activity_Grade.class);
+                intent_cardview_grades.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_HISTORY);
                 startActivity(intent_cardview_grades);
                 break;
             case R.id.cardview_timetable:
                 Intent intent_cardview_timeTable = new Intent(Activity_Menu.this, Activity_TKB.class);
+                intent_cardview_timeTable.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_HISTORY);
                 startActivity(intent_cardview_timeTable);
                 break;
             case R.id.cardview_infor:
                 Intent cardview_infor = new Intent(Activity_Menu.this, Activity_Info.class);
+                cardview_infor.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_HISTORY);
                 startActivity(cardview_infor);
                 break;
             case R.id.cardview_tuitionfee:
@@ -65,6 +69,7 @@ public class Activity_Menu<card_checkin> extends AppCompatActivity  implements V
                 break;
             case R.id.cardview_deadline:
                 Intent cardview_deadline = new Intent(Activity_Menu.this, Activity_About.class);
+                cardview_deadline.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_HISTORY);
                 startActivity(cardview_deadline);
                 break;
             default:

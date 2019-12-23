@@ -22,5 +22,5 @@
     <string name="location_checkIn_error">Điểm danh không thành công.\nVào lớp học để điểm danh</string>
     //END CHECK IN
 
-    <string name="domain">http://10.80.247.191:8000</string>
+    <string name="domain">http://10.10.104.23:8000</string>
 </resources>

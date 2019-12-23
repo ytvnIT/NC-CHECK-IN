@@ -7,7 +7,7 @@ public class APIUtils {
 //public static final String Base_Url="http://192.168.240.1:8000";
 
 
-public static final String Base_Url="http://10.80.247.191:8000";
+public static final String Base_Url="http://10.10.104.23:8000";
 
 
 //    public static final String Base_Url="http:172.30.99.190:8000";

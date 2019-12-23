@@ -13,6 +13,7 @@
         android:layout_weight="3"
         android:background="@drawable/infor_bg_gradiant" >
         <Button
+            android:layout_margin="10dp"
             android:id="@+id/btnBackInfo"
             android:layout_width="42dp"
             android:layout_height="40dp"
@@ -37,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pham Nhat Tuan"
-            android:textColor="#A51E1E"
+            android:textColor="#fff"
             android:textStyle="bold"
             android:textSize="30sp"></TextView>
 
@@ -49,14 +50,14 @@
                 android:id="@+id/tv_mssv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="25sp"
-                android:textColor="#000"
+                android:textSize="20sp"
+                android:textColor="#fff"
                 android:text="17521219 "/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="25sp"
-                android:textColor="#000"
+                android:textSize="20sp"
+                android:textColor="#fff"
                 android:text=" | Sinh vien"/>
         </LinearLayout>
     </LinearLayout>

@@ -186,7 +186,7 @@
                 //CHECK _ IN
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardview_deadline"
+                    android:id="@+id/cardview_infor"
                     android:layout_width="174dp"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -208,13 +208,13 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:src="@drawable/icon_deadline" />
+                            android:src="@drawable/icon_infor" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="@string/deadline"
+                            android:text="@string/info"
                             android:textSize="18sp" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -258,7 +258,7 @@
                 //CHECK _ IN
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardview_infor"
+                    android:id="@+id/cardview_deadline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -278,15 +278,16 @@
                         android:padding="16dp">
 
                         <ImageView
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:src="@drawable/icon_infor" />
+                            android:layout_marginTop="10dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/about" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="@string/info"
+                            android:text="About"
                             android:textSize="18sp" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
