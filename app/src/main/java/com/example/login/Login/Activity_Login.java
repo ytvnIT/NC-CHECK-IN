@@ -83,7 +83,7 @@ public class    Activity_Login extends AppCompatActivity implements View.OnClick
                         sharedPreferences.edit().putString("IMAGE", message.getANH()).apply();
                         Toast.makeText(Activity_Login.this, "Wellcome!!!", Toast.LENGTH_SHORT).show();
                         Intent intent_Menu = new Intent(Activity_Login.this, Activity_Menu.class);
-                        intent_Menu.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_HISTORY);
+                        //intent_Menu.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_HISTORY);
                         startActivity(intent_Menu);
                         finish();
                     }

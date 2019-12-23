@@ -11,6 +11,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -121,46 +122,49 @@ public class Activity_TKB extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         FragmentTKB fragmentTKB = null;
         List<TKB> t =null;
+        int[] colors = {Color.parseColor("#2193b0"),Color.parseColor("#6dd5ed")};
+        GradientDrawable gd = new GradientDrawable(
+                GradientDrawable.Orientation.RIGHT_LEFT, colors);
         switch (view.getId()){
             case R.id.btn_2:
                 fragmentTKB = new FragmentTKB(2);
                 changeButton();
-                btn2.setBackgroundColor(Color.GRAY);
+                btn2.setBackground(gd);
                 t = db_tkb.getTKB(2);
                 Relax(t);
                 break;
             case R.id.btn_3:
                 fragmentTKB = new FragmentTKB(3);
                 changeButton();
-                btn3.setBackgroundColor(Color.GRAY);
+                btn3.setBackground(gd);
                 t = db_tkb.getTKB(3);
                 Relax(t);
                 break;
             case R.id.btn_4:
                 fragmentTKB = new FragmentTKB(4);
                 changeButton();
-                btn4.setBackgroundColor(Color.GRAY);
+                btn4.setBackground(gd);
                 t = db_tkb.getTKB(4);
                 Relax(t);
                 break;
             case R.id.btn_5:
                 fragmentTKB = new FragmentTKB(5);
                 changeButton();
-                btn5.setBackgroundColor(Color.GRAY);
+                btn5.setBackground(gd);
                 t = db_tkb.getTKB(5);
                 Relax(t);
                 break;
             case R.id.btn_6:
                 fragmentTKB = new FragmentTKB(6);
                 changeButton();
-                btn6.setBackgroundColor(Color.GRAY);
+                btn6.setBackground(gd);
                 t = db_tkb.getTKB(6);
                 Relax(t);
                 break;
             case R.id.btn_7:
                 fragmentTKB = new FragmentTKB(7);
                 changeButton();
-                btn7.setBackgroundColor(Color.GRAY);
+                btn7.setBackground(gd);
                 t = db_tkb.getTKB(7);
                 Relax(t);
                 break;
