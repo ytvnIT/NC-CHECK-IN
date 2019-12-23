@@ -41,7 +41,6 @@ public class Activity_Menu<card_checkin> extends AppCompatActivity  implements V
         switch (v.getId()){
             case R.id.cardview_checkin:
                 Intent intent_cardview_checkin = new Intent(Activity_Menu.this, CheckIn.class);
-                intent_cardview_checkin.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_HISTORY);
                 startActivity(intent_cardview_checkin);
                 break;
             case R.id.cardview_grades:

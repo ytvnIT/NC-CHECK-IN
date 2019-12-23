@@ -60,10 +60,10 @@ public class CheckIn extends AppCompatActivity {
     private Database database;
     private SharedPreferences sharedPreferences;
     private IntentIntegrator intentIntegrator;
-    private static final double LATITUDE = 10.881712;  //KTX
-    private static final double LONGTITUDE = 106.782122; //KTX
-//        private static  final double LATITUDE = 10.869486; //UIT
-//    private static  final double LONGTITUDE = 106.803304; //UIT
+//    private static final double LATITUDE = 10.881712;  //KTX
+//    private static final double LONGTITUDE = 106.782122; //KTX
+        private static  final double LATITUDE = 10.869486; //UIT
+    private static  final double LONGTITUDE = 106.803304; //UIT
     private String ID;
     private String MAMH;
     private static final int REQUEST_LOCATION = 1;
@@ -145,6 +145,7 @@ public class CheckIn extends AppCompatActivity {
             } else {
                 String re = result.getContents();
                 MAMH = re.split("@")[1];
+
                 api_checkIn(re);// gửi token (re) lên server để điểm danh
             }
         } else {
